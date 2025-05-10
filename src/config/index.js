@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
-import { program } from '../../process.js'
+// import { program } from '../../../process.js'
 
-const { mode } = program.opts()
+// const { mode } = program.opts()
 
 dotenv.config()
 
