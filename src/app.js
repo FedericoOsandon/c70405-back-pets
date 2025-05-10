@@ -20,6 +20,7 @@ const app = express()
 const connection = mongoose.connect(process.env.MONGO_URL)
 const PORT = configObject.port 
 
+app.use(express.static('public'))
 app.use(express.json())
 app.use(cookieParser())
 app.use(addLogger)
